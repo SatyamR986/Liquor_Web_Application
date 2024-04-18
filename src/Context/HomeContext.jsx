@@ -8,7 +8,7 @@ const HomeContextProvider = (props)=> {
 
     return (
         <HomeContext.Provider value={ContextValue}>
-            {props.Wine}
+            {props.children}
         </HomeContext.Provider>
     )
 }

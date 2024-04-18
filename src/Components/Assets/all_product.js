@@ -143,7 +143,7 @@ let all_product = [
   {
     id: 14,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
+    category: "Whisky",
     image: p14_img,
     new_price: 85.0,
     old_price: 120.5,

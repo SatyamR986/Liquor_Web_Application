@@ -8,7 +8,7 @@ const Category = (props) => {
   const {all_product} = useContext(HomeContext);
   return (
     <div className='home-category'>
-      <img src={props.banner} alt="" />
+      <img className='homecategory-banner' src={props.banner} alt="" />
       <div className="homecategory-indexSort">
         <p>
           <span>Showing 1-12</span> out of 36 products
@@ -26,6 +26,9 @@ const Category = (props) => {
             return null;
           }
         })}
+      </div>
+      <div className="homecategory-loadmore">
+        Explore More
       </div>
     </div>
   )

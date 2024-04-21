@@ -13,9 +13,10 @@ const Navbar = () => {
   return (
     <div className='navbar'>
         <div className="nav-logo">
-            <img src={logo} alt="" />
-            <p>TIPSY</p>
+            <img src={logo} alt="" style={{ width: '60px', height: '60px' }} />
+             <p>TIPSY</p>
         </div>
+
         <ul className="nav-menu">
             <li onClick= {() =>{setMenu("Home")}} ><Link style={{textDecoration: 'none'}} to='/'>Home</Link>{menu==="Home" ? <hr/> : <></>}</li>
             <li onClick= {() =>{setMenu("Whisky")}} ><Link style={{textDecoration: 'none'}} to='/Whisky'>Whisky</Link>{menu==="Whisky" ? <hr/> : <></>}</li>
